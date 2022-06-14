@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    margin: 0;
+}
+
+.top-bar{
+    background: #1A1A1A;
+    margin: 0;
+    padding: 0;
+    height: 440px;
+    width: 100%;
+}
+
+.bottom{
+    background: #050505;
+    margin: 0;
+    padding: 0;
+    height: 119px;
+    width: 100%;
+}
+
+.logo{
+    display: inline-block;
+}
+
+.logo1{
+    display: inline-block;
+    position: relative;
+    width: 96px;
+    height:94px;
+    left: 126px;
+    top: 82px
+}
+
+.info .mission{
+   position: absolute;
+   width: 137px;
+   left: 126px;
+   top: 196px;
+   color: #FFFFFF;
+   font-family: poppins;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 29px
+
+}
+.info .mission p{
+    width: 445px;
+    height: 96px;
+    top: 237px;
+
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.info .links a{
+    position: absolute;
+    width: 111px;
+    height: 24px;
+    left:772px;
+    top: 196px;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+
+}
+ .info .links ul{
+    position: absolute;
+    width: 44px;
+    height: 19px;
+    left:735px;
+    top: 232px;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* text-align: center; */
+    /* text-decoration-line: underline; */
+    color: #FFFFFF;
+    list-style-type: none;
+ }
+
+ .info .links ul li{
+    margin-top: 10px;
+ }
+
+ 
+.info .contacts a{
+    position: absolute;
+    width: 111px;
+    height: 24px;
+    left:1141px;
+    top: 196px;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+
+}
+.info .contacts .phone{
+    position: absolute;
+    width: 200px;
+    height: 19px;
+    left: 1110px;
+    top: 230px;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    /* text-decoration-line: underline; */
+    color: #FFFFFF;
+}
+.info .contacts .mail{
+    position: absolute;
+    width: 200px;
+    height: 19px;
+    left: 1140px;
+    top: 259px;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    /* text-decoration-line: underline; */
+    color: #FFFFFF;
+}
+
+.h{
+    position: absolute;
+    width: 1248px;
+    height: 0px;
+    left: 150px;
+    top:495px;
+    border: 1px solid #494949;
+}
+
+.bottom{
+    margin-top: -17px;
+}
+
+.bottom .copy{
+    color: #FFFFFF;
+    position: absolute;
+    height: 15px;
+    left:560px;
+    width:500px;
+    top: 500px;
+}
+
+.bottom .copy p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 25px;
+}
+
+.logoLinks #facebook{
+    color: #FFFFFF;
+    width: 50px;
+    height: 50px;
+    left:687px;
+    position: absolute;
+    top: 460px;
+}
+
+.logoLinks #twitter{
+    color: #FFFFFF;
+    width:36px;
+    height: 33px;
+    left:773px;
+    position: absolute;
+    top:460px;
+}
+
+.logoLinks #instagram{
+    color: #FFFFFF;
+    width:36px;
+    height: 33px;
+    left:730px;
+    position: absolute;
+    top:460px;
+}
+
+.logoLinks #linkedin{
+    color: #FFFFFF;
+    width:36px;
+    height: 33px;
+    left:816px;
+    position: absolute;
+    top:460px;
+}
