@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/YouTube-React/static/css/main.69984612.css",
+    "main.js": "/YouTube-React/static/js/main.75b87ce9.js",
+    "static/js/787.b029366a.chunk.js": "/YouTube-React/static/js/787.b029366a.chunk.js",
+    "static/media/newbuild.jpg": "/YouTube-React/static/media/newbuild.7a7fb2a05513c6d7c5af.jpg",
+    "static/media/hq720.webp": "/YouTube-React/static/media/hq720.c4ba0b0b44a4706654a7.webp",
+    "static/media/search.png": "/YouTube-React/static/media/search.3588619d3805df36e385.png",
+    "static/media/microphone.png": "/YouTube-React/static/media/microphone.9cda08c700a4a4529b41.png",
+    "static/media/Location.png": "/YouTube-React/static/media/Location.462bbde935cfdffcdec6.png",
+    "static/media/user.png": "/YouTube-React/static/media/user.623360a8e4c2ae122f2a.png",
+    "static/media/settings.png": "/YouTube-React/static/media/settings.b52c833ac1ec7ba56d61.png",
+    "static/media/question.png": "/YouTube-React/static/media/question.47ab2a8908dc3d736592.png",
+    "static/media/add.png": "/YouTube-React/static/media/add.ec81dde3e73ecafe0f95.png",
+    "index.html": "/YouTube-React/index.html",
+    "main.69984612.css.map": "/YouTube-React/static/css/main.69984612.css.map",
+    "main.75b87ce9.js.map": "/YouTube-React/static/js/main.75b87ce9.js.map",
+    "787.b029366a.chunk.js.map": "/YouTube-React/static/js/787.b029366a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69984612.css",
+    "static/js/main.75b87ce9.js"
+  ]
+}
