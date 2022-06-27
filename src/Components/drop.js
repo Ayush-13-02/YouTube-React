@@ -14,10 +14,10 @@ import rarr from './Img/arrow-r.png'
 import 'tippy.js/dist/tippy.css'
 export default function Example({signin}) {
   return (
-    <div className="text-right mt-3" style={signin?{display:"none"}:null}>
+    <div className="text-right" style={signin?{display:"none"}:null}>
       <Menu as="div" className="relative inline-block text-left">
-        <Tippy content={<span className='p-2 text-white text-lg'>Settings</span>}>
-          <Menu.Button className='justify-center mt-4 mx-2'><img src={threedot} alt="" className='h-6' /></Menu.Button>
+        <Tippy content={<span className='p-2 text-white text-base'>Settings</span>}>
+          <Menu.Button className='justify-center mt-2 mx-2'><img src={threedot} alt="" className='h-5' /></Menu.Button>
         </Tippy>
         <Transition
           as={Fragment}

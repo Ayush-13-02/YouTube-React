@@ -41,6 +41,15 @@
   margin: 0 5px 0 5px;
 }
 
+.uemail{
+  font-size: .75rem;
+  transition: all 0.2s ease-out;
+  top: -0.9rem;
+  background-color: #fff;
+  color: #1a73e8;
+  padding: 0 5px 0 5px;
+  margin: 0 5px 0 5px;
+}
 .label {
   transition: all 0.2s ease-out;
   top: 0.4rem;

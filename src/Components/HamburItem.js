@@ -24,168 +24,155 @@ import feedback from './Img/feedback.png'
 import premium from './Img/youtube.png'
 import history from './Img/history.png'
 import Hambur from './Img/menu.png'
-function HamburItem({ open, handleopen }) {
+function HamburItem({ open }) {
 
     return (
         <div className='flex flex-col'>
-            <div className='flex'>
-                <button className='mx-10 my-2 mt-6 rounded-lg flex justify-center hover:border' open={open} onClick={handleopen} style={open ? {
-                    width: "4rem",
-                    margin: "1rem 0rem 0rem 1rem"
-                } : { width: "3.3rem" }}>
-                    <img src={Hambur} alt="..." className='m-2 h-8 mt-2' />
-                </button>
-                <button className='flex mt-4 mr-8' style={open ? null : { display: "none" }}>
-                    <img src={youImg} alt="..." className='m-2 h-8 mt-2 mr-0' />
-                    <div className='text-3xl text-gray-500 mr-6 m-1 ml-1 font-bold flex'>YouTube <sup className='text-base mb-5'>IN</sup> </div>
-                </button>
-                {/* <HamburItem/> */}
-            </div>
-            <div className='my-4 flex flex-col mx-4 overflow-y-auto scrollbar ' style={open ? { width: "18rem", height: "44rem" } : { width: "6rem" }}>
-                <button className=' mt-3 mx-1 rounded hover:bg-slate-500'>
+            <div className='my-4 h-full flex flex-col overflow-y-auto scrollbar ' style={open ? { width: "16rem", marginLeft: "1rem"} : { width: "6rem" }}>
+                <button className='mx-1 rounded hover:bg-slate-500'>
                     <div className='items-center flex my-1 p-2' style={open ? { flexDirection: "row" } : { flexDirection: "column" }}>
-                        <img src={Home} alt="" className='h-8 w-8' />
-                        <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.3rem" } : null}>Home</h6>
+                        <img src={Home} alt="" className='h-6 w-6' />
+                        <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.125rem" } : {fontSize: "0.875rem"}}>Home</h6>
                     </div>
                 </button>
-                <button className=' mt-2 mx-1 rounded hover:bg-slate-500'>
+                <button className='   mx-1 rounded hover:bg-slate-500'>
                     <div className='items-center flex my-1 p-2' style={open ? { flexDirection: "row" } : { flexDirection: "column" }}>
-                        <img src={explore} alt="" className='h-8 w-8' />
-                        <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.3rem" } : null}>Explore</h6>
+                        <img src={explore} alt="" className='h-6 w-6' />
+                        <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.125rem" } : {fontSize: "0.875rem"}}>Explore</h6>
                     </div>
                 </button>
-                <button className=' mt-2 mx-1 rounded hover:bg-slate-500'>
+                <button className='   mx-1 rounded hover:bg-slate-500'>
                     <div className='items-center flex my-1 p-2' style={open ? { flexDirection: "row" } : { flexDirection: "column" }}>
-                        <img src={shorts} alt="" className='h-8 w-8' />
-                        <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.3rem" } : null}>Shorts</h6>
+                        <img src={shorts} alt="" className='h-6 w-6' />
+                        <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.125rem" } : {fontSize: "0.875rem"}}>Shorts</h6>
                     </div>
 
                 </button>
-                <button className=' mt-2 mx-1 rounded hover:bg-slate-500'>
+                <button className='   mx-1 rounded hover:bg-slate-500'>
                     <div className='items-center flex my-1 p-2' style={open ? { flexDirection: "row" } : { flexDirection: "column" }}>
-                        <img src={subscription} alt="" className='h-8 w-8' />
-                        <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.3rem" } : null}>Subscriptions</h6>
+                        <img src={subscription} alt="" className='h-6 w-6' />
+                        <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.125rem" } : {fontSize: "0.875rem"}}>Subscriptions</h6>
                     </div>
 
                 </button>
-                <button className=' mt-2 mx-1 rounded hover:bg-slate-500'>
+                <button className='   mx-1 rounded hover:bg-slate-500'>
                     <div className='items-center flex my-1 p-2' style={open ? { flexDirection: "row" } : { flexDirection: "column" }}>
-                        <img src={library} alt="" className='h-8 w-8' />
-                        <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.3rem" } : null}>Library</h6>
+                        <img src={library} alt="" className='h-6 w-6' />
+                        <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.125rem" } : {fontSize: "0.875rem"}}>Library</h6>
                     </div>
                 </button>
-                <button className=' mt-2 mx-1 mb-4 rounded hover:bg-slate-500'>
+                <button className='   mx-1 mb-4 rounded hover:bg-slate-500'>
                     <div className='items-center flex my-1 p-2' style={open ? { flexDirection: "row" } : { flexDirection: "column" }}>
-                        <img src={history} alt="" className='h-8 w-8' />
-                        <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.3rem" } : null}>History</h6>
+                        <img src={history} alt="" className='h-6 w-6' />
+                        <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.125rem" } : {fontSize: "0.875rem"}}>History</h6>
                     </div>
                 </button>
-                <div className='my-3' style={open ? null : { display: "none" }}>
+                <div className='my-3' style={open ? {fontSize: "0.875rem"} : { display: "none" }}>
                     <hr />
-                    <h1 className='text-2xl font-medium text-cyan-700 my-4'>BEST OF YOUTUBE</h1>
-                    <button className=' mt-2 mx-4 rounded w-spec hover:bg-slate-500'>
+                    <h1 className='text-lg mx-2 font-medium text-yellow-100 my-4'>BEST OF YOUTUBE</h1>
+                    <button className='   mx-2 rounded w-spec hover:bg-slate-500'>
                         <div className='items-center flex my-1 p-2' style={open ? { flexDirection: "row" } : { flexDirection: "column" }}>
-                            <img src={music} alt="" className='h-8 w-8 border rounded-full' />
-                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.3rem" } : null}>Music</h6>
+                            <img src={music} alt="" className='h-6 w-6 border rounded-full' />
+                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.125rem" } : {fontSize: "0.875rem"}}>Music</h6>
                         </div>
                     </button>
-                    <button className=' mt-2 mx-4 rounded w-spec hover:bg-slate-500'>
+                    <button className='   mx-2 rounded w-spec hover:bg-slate-500'>
                         <div className='items-center flex my-1 p-2' style={open ? { flexDirection: "row" } : { flexDirection: "column" }}>
-                            <img src={sport} alt="" className='h-8 w-8 border rounded-full' />
-                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.3rem" } : null}>Sports</h6>
+                            <img src={sport} alt="" className='h-6 w-6 border rounded-full' />
+                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.125rem" } : {fontSize: "0.875rem"}}>Sports</h6>
                         </div>
                     </button>
-                    <button className=' mt-2 mx-4 rounded w-spec hover:bg-slate-500'>
+                    <button className='   mx-2 rounded w-spec hover:bg-slate-500'>
                         <div className='items-center flex my-1 p-2' style={open ? { flexDirection: "row" } : { flexDirection: "column" }}>
-                            <img src={gaming} alt="" className='h-8 w-8 border rounded-full' />
-                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.3rem" } : null}>Gaming</h6>
+                            <img src={gaming} alt="" className='h-6 w-6 border rounded-full' />
+                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.125rem" } : {fontSize: "0.875rem"}}>Gaming</h6>
                         </div>
                     </button>
-                    <button  className=' mt-2 mx-4 rounded w-spec hover:bg-slate-500'>
+                    <button className='   mx-2 rounded w-spec hover:bg-slate-500'>
                         <div className='items-center flex my-1 p-2' style={open ? { flexDirection: "row" } : { flexDirection: "column" }}>
-                            <img src={movie} alt="" className='h-8 w-8 border rounded-full' />
-                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.3rem" } : null}>Movies</h6>
+                            <img src={movie} alt="" className='h-6 w-6 border rounded-full' />
+                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.125rem" } : {fontSize: "0.875rem"}}>Movies</h6>
                         </div>
                     </button>
-                    <button  className=' mt-2 mx-4 rounded w-spec hover:bg-slate-500'>
+                    <button className='   mx-2 rounded w-spec hover:bg-slate-500'>
                         <div className='items-center flex my-1 p-2' style={open ? { flexDirection: "row" } : { flexDirection: "column" }}>
-                            <img src={news} alt="" className='h-8 w-8 border rounded-full' />
-                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.3rem" } : null}>News</h6>
+                            <img src={news} alt="" className='h-6 w-6 border rounded-full' />
+                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.125rem" } : {fontSize: "0.875rem"}}>News</h6>
                         </div>
                     </button>
-                    <button  className=' mt-2 mx-4 rounded w-spec hover:bg-slate-500'>
+                    <button className='   mx-2 rounded w-spec hover:bg-slate-500'>
                         <div className='items-center flex my-1 p-2' style={open ? { flexDirection: "row" } : { flexDirection: "column" }}>
-                            <img src={live} alt="" className='h-8 w-8 border rounded-full' />
-                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.3rem" } : null}>Live</h6>
+                            <img src={live} alt="" className='h-6 w-6 border rounded-full' />
+                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.125rem" } : {fontSize: "0.875rem"}}>Live</h6>
                         </div>
                     </button>
-                    <button  className=' mt-2 mx-4 rounded w-spec hover:bg-slate-500'>
+                    <button className='   mx-2 rounded w-spec hover:bg-slate-500'>
                         <div className='items-center flex my-1 p-2' style={open ? { flexDirection: "row" } : { flexDirection: "column" }}>
-                            <img src={f_b} alt="" className='h-8 w-8 border rounded-full' />
-                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.3rem" } : null}>Fashion & Beauty</h6>
+                            <img src={f_b} alt="" className='h-6 w-6 border rounded-full' />
+                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.125rem" } : {fontSize: "0.875rem"}}>Fashion & Beauty</h6>
                         </div>
                     </button>
-                    <button  className=' mt-2 mx-4 rounded w-spec hover:bg-slate-500'>
+                    <button className='   mx-2 rounded w-spec hover:bg-slate-500'>
                         <div className='items-center flex my-1 p-2' style={open ? { flexDirection: "row" } : { flexDirection: "column" }}>
-                            <img src={learn} alt="" className='h-8 w-8 border rounded-full' />
-                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.3rem" } : null}>Learning</h6>
+                            <img src={learn} alt="" className='h-6 w-6 border rounded-full' />
+                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.125rem" } : {fontSize: "0.875rem"}}>Learning</h6>
                         </div>
                     </button>
-                    <button  className=' mt-2 mx-4 rounded w-spec hover:bg-slate-500'>
+                    <button className='   mx-2 rounded w-spec hover:bg-slate-500'>
                         <div className='items-center flex my-1 p-2' style={open ? { flexDirection: "row" } : { flexDirection: "column" }}>
-                            <img src={spotlight} alt="" className='h-8 w-8 border rounded-full' />
-                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.3rem" } : null}>Spotlight</h6>
+                            <img src={spotlight} alt="" className='h-6 w-6 border rounded-full' />
+                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.125rem" } : {fontSize: "0.875rem"}}>Spotlight</h6>
                         </div>
                     </button>
-                    <button className=' mt-2 mx-4 mb-4 rounded w-spec hover:bg-slate-500'>
+                    <button className='   mx-2 mb-4 rounded w-spec hover:bg-slate-500'>
                         <div className='items-center flex my-1 p-2' style={open ? { flexDirection: "row" } : { flexDirection: "column" }}>
-                            <img src={vedio} alt="" className='h-8 w-8 border rounded-full' />
-                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.3rem" } : null}>360* vedio</h6>
-                        </div>
-                    </button>
-                    <hr />
-                    <button className=' mt-2 mx-4 mb-4 my-2 w-spec rounded hover:bg-slate-500'>
-                        <div className='items-center flex my-1 p-2' style={open ? { flexDirection: "row" } : { flexDirection: "column" }}>
-                            <img src={plus} alt="" className='h-8 w-8' />
-                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.3rem" } : null}>Browse channels</h6>
+                            <img src={vedio} alt="" className='h-6 w-6 border rounded-full' />
+                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.125rem" } : {fontSize: "0.875rem"}}>360* vedio</h6>
                         </div>
                     </button>
                     <hr />
-                    <h1 className='text-xl font-medium text-cyan-700 my-4'>MORE FROM YOUTUBE</h1>
-                    <button  className=' mt-2 mx-4 rounded w-spec hover:bg-slate-500'>
+                    <button className='   mx-2 mb-4 my-2 w-spec rounded hover:bg-slate-500'>
+                        <div className='items-center flex my-1 p-2' style={open ? { flexDirection: "row" } : { flexDirection: "column" }}>
+                            <img src={plus} alt="" className='h-6 w-6' />
+                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.125rem" } : {fontSize: "0.875rem"}}>Browse channels</h6>
+                        </div>
+                    </button>
+                    <hr />
+                    <h1 className='text-base mx-2 font-medium text-yellow-100 my-4'>MORE FROM YOUTUBE</h1>
+                    <button className='   mx-2 rounded w-spec hover:bg-slate-500'>
                         <div className='items-center flex my-1 p-1' style={open ? { flexDirection: "row" } : { flexDirection: "column" }}>
-                            <img src={premium} alt="" className='h-8 w-8' />
-                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.3rem" } : null}>YouTube Premium</h6>
+                            <img src={premium} alt="" className='h-6 w-6' />
+                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.125rem" } : {fontSize: "0.875rem"}}>YouTube Premium</h6>
                         </div>
                     </button>
-                    <button className=' mt-2 mx-4 mb-4 w-spec rounded hover:bg-slate-500'>
+                    <button className='   mx-2 mb-4 w-spec rounded hover:bg-slate-500'>
                         <div className='items-center flex my-1 p-2' style={open ? { flexDirection: "row" } : { flexDirection: "column" }}>
-                            <img src={Live} alt="" className='h-8 w-8' />
-                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.3rem" } : null}>Live</h6>
+                            <img src={Live} alt="" className='h-6 w-6' />
+                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.125rem" } : {fontSize: "0.875rem"}}>Live</h6>
                         </div>
                     </button>
                     <hr />
-                    <button className=' mt-4 mx-4 w-spec rounded hover:bg-slate-500'>
+                    <button className=' mt-4 mx-2 w-spec rounded hover:bg-slate-500'>
                         <div className='items-center flex my-1 p-2' style={open ? { flexDirection: "row" } : { flexDirection: "column" }}>
-                            <img src={setting} alt="" className='h-8 w-8' />
-                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.3rem" } : null}>Settings</h6>
+                            <img src={setting} alt="" className='h-6 w-6' />
+                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.125rem" } : {fontSize: "0.875rem"}}>Settings</h6>
                         </div>
-                    </button><button  className=' mt-2 mx-4 rounded w-spec hover:bg-slate-500'>
+                    </button><button className='   mx-2 rounded w-spec hover:bg-slate-500'>
                         <div className='items-center flex my-1 p-2' style={open ? { flexDirection: "row" } : { flexDirection: "column" }}>
-                            <img src={rphist} alt="" className='h-8 w-8' />
-                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.3rem" } : null}>Report History</h6>
-                        </div>
-                    </button>
-                    <button  className=' mt-2 mx-4 rounded w-spec hover:bg-slate-500'>
-                        <div className='items-center flex my-1 p-2' style={open ? { flexDirection: "row" } : { flexDirection: "column" }}>
-                            <img src={help} alt="" className='h-8 w-8' />
-                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.3rem" } : null}>Help</h6>
+                            <img src={rphist} alt="" className='h-6 w-6' />
+                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.125rem" } : {fontSize: "0.875rem"}}>Report History</h6>
                         </div>
                     </button>
-                    <button  className=' mt-2 mx-4 rounded w-spec hover:bg-slate-500'>
+                    <button className='   mx-2 rounded w-spec hover:bg-slate-500'>
                         <div className='items-center flex my-1 p-2' style={open ? { flexDirection: "row" } : { flexDirection: "column" }}>
-                            <img src={feedback} alt="" className='h-8 w-8' />
-                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.3rem" } : null}>Send Feedback</h6>
+                            <img src={help} alt="" className='h-6 w-6' />
+                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.125rem" } : {fontSize: "0.875rem"}}>Help</h6>
+                        </div>
+                    </button>
+                    <button className=' mx-2 rounded w-spec hover:bg-slate-500'>
+                        <div className='items-center flex my-1 p-2' style={open ? { flexDirection: "row" } : { flexDirection: "column" }}>
+                            <img src={feedback} alt="" className='h-6 w-6' />
+                            <h6 className='my-2 text-cyan-200' style={open ? { margin: "0rem 1rem", fontSize: "1.125rem" } : {fontSize: "0.875rem"}}>Send Feedback</h6>
                         </div>
                     </button>
                 </div>
