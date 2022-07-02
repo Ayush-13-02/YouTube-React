@@ -32,15 +32,15 @@ function App() {
   return (
     <>
       <Navbar open={open} signin={signin} handleopen={handleopen} handlelogin={handlelogin} />
-      <div className='bg-slate-800 w-full flex h-[calc(100vh-4rem)]'>
+      <div className='bg-black w-full flex h-[calc(100vh-4rem-1px)]'>
         <HamburItem open={open} />
-        <div className='flex w-full justify-center'>
+        <div className='flex w-full justify-center items-center'>
           <Vedio login={login} />
           {
-            login? logopen?null:<Login checklogin={checklogin} setChecklogin = {setChecklogin} handlelogpass={handlelogpass}/> : null
+            login ? logopen ? null : <Login checklogin={checklogin} setChecklogin={setChecklogin} handlelogpass={handlelogpass} /> : null
           }
           {
-            logopen? <Logpass emailval = {checklogin} handlesignin={handlesignin} handlelogin={handlelogin}/>:null
+            logopen ? <Logpass emailval={checklogin} handlesignin={handlesignin} handlelogin={handlelogin} /> : null
           }
         </div>
       </div>
