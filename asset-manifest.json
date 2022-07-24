@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/YouTube-React/static/css/main.4e1d9df6.css",
-    "main.js": "/YouTube-React/static/js/main.34005f1a.js",
+    "main.css": "/YouTube-React/static/css/main.c8256da4.css",
+    "main.js": "/YouTube-React/static/js/main.7c14b8f8.js",
     "static/js/787.b029366a.chunk.js": "/YouTube-React/static/js/787.b029366a.chunk.js",
     "static/media/newbuild.jpg": "/YouTube-React/static/media/newbuild.7a7fb2a05513c6d7c5af.jpg",
     "static/media/hq720.webp": "/YouTube-React/static/media/hq720.c4ba0b0b44a4706654a7.webp",
+    "static/media/youtubelogo.png": "/YouTube-React/static/media/youtubelogo.ea8339adab41cd54d7ab.png",
     "static/media/search.png": "/YouTube-React/static/media/search.3588619d3805df36e385.png",
     "static/media/microphone.png": "/YouTube-React/static/media/microphone.9cda08c700a4a4529b41.png",
     "static/media/Location.png": "/YouTube-React/static/media/Location.462bbde935cfdffcdec6.png",
@@ -13,12 +14,12 @@
     "static/media/question.png": "/YouTube-React/static/media/question.47ab2a8908dc3d736592.png",
     "static/media/add.png": "/YouTube-React/static/media/add.ec81dde3e73ecafe0f95.png",
     "index.html": "/YouTube-React/index.html",
-    "main.4e1d9df6.css.map": "/YouTube-React/static/css/main.4e1d9df6.css.map",
-    "main.34005f1a.js.map": "/YouTube-React/static/js/main.34005f1a.js.map",
+    "main.c8256da4.css.map": "/YouTube-React/static/css/main.c8256da4.css.map",
+    "main.7c14b8f8.js.map": "/YouTube-React/static/js/main.7c14b8f8.js.map",
     "787.b029366a.chunk.js.map": "/YouTube-React/static/js/787.b029366a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e1d9df6.css",
-    "static/js/main.34005f1a.js"
+    "static/css/main.c8256da4.css",
+    "static/js/main.7c14b8f8.js"
   ]
 }
