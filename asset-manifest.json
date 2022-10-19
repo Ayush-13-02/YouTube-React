@@ -1,10 +1,19 @@
 {
   "files": {
     "main.css": "/YouTube-React/static/css/main.c8256da4.css",
-    "main.js": "/YouTube-React/static/js/main.7c14b8f8.js",
-    "static/js/787.b029366a.chunk.js": "/YouTube-React/static/js/787.b029366a.chunk.js",
+    "main.js": "/YouTube-React/static/js/main.4c1c2752.js",
+    "static/js/787.65842f4d.chunk.js": "/YouTube-React/static/js/787.65842f4d.chunk.js",
     "static/media/newbuild.jpg": "/YouTube-React/static/media/newbuild.7a7fb2a05513c6d7c5af.jpg",
     "static/media/hq720.webp": "/YouTube-React/static/media/hq720.c4ba0b0b44a4706654a7.webp",
+    "static/media/hq10.webp": "/YouTube-React/static/media/hq10.0d165c7b3e01a08ba0f9.webp",
+    "static/media/hq4.webp": "/YouTube-React/static/media/hq4.c0cf9f07d433dbb6c58e.webp",
+    "static/media/hq6.webp": "/YouTube-React/static/media/hq6.2595eb9af6612a7effac.webp",
+    "static/media/hq2.webp": "/YouTube-React/static/media/hq2.5f0e1029310775e899b5.webp",
+    "static/media/hq8.webp": "/YouTube-React/static/media/hq8.77b774f321ec9d527a00.webp",
+    "static/media/hq9.webp": "/YouTube-React/static/media/hq9.77b774f321ec9d527a00.webp",
+    "static/media/hq3.webp": "/YouTube-React/static/media/hq3.d0007a32131d6bff6bdc.webp",
+    "static/media/hq7.webp": "/YouTube-React/static/media/hq7.d77313008a90bc66ccc0.webp",
+    "static/media/hq5.webp": "/YouTube-React/static/media/hq5.0de59db7d8e80dfbc1e0.webp",
     "static/media/youtubelogo.png": "/YouTube-React/static/media/youtubelogo.ea8339adab41cd54d7ab.png",
     "static/media/search.png": "/YouTube-React/static/media/search.3588619d3805df36e385.png",
     "static/media/microphone.png": "/YouTube-React/static/media/microphone.9cda08c700a4a4529b41.png",
@@ -15,11 +24,11 @@
     "static/media/add.png": "/YouTube-React/static/media/add.ec81dde3e73ecafe0f95.png",
     "index.html": "/YouTube-React/index.html",
     "main.c8256da4.css.map": "/YouTube-React/static/css/main.c8256da4.css.map",
-    "main.7c14b8f8.js.map": "/YouTube-React/static/js/main.7c14b8f8.js.map",
-    "787.b029366a.chunk.js.map": "/YouTube-React/static/js/787.b029366a.chunk.js.map"
+    "main.4c1c2752.js.map": "/YouTube-React/static/js/main.4c1c2752.js.map",
+    "787.65842f4d.chunk.js.map": "/YouTube-React/static/js/787.65842f4d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c8256da4.css",
-    "static/js/main.7c14b8f8.js"
+    "static/js/main.4c1c2752.js"
   ]
 }
