@@ -23,7 +23,7 @@ function Vedio({ login }) {
             <div className='w-full h-full' style={login ? { display: "none" } : null}>
                 <hr />
                 <div className='h-full w-full overflow-y-scroll scrollnav md:scrollbar'>
-                    <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 place-items-center'>
+                    <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 place-items-center mx-2'>
                         {
                             list.map((item, i) => {
                                 return <div key={i} className="max-w-sm rounded overflow-hidden shadow-lg m-2">
